@@ -96,5 +96,14 @@ public class kleineUebungenLoesung {
         chars10[chars10.length - 1] = c10;
         sb10 = new StringBuilder(new String(chars10));
         System.out.println(sb10); // Code?
+
+        int i = 3;
+        int j = i.addOne();
+
+
+    }
+
+    public int addOne () {
+        return  + 1;
     }
 }
